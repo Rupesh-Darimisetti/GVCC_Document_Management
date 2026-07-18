@@ -1,0 +1,67 @@
+# ====================================================================
+# Dependency Management Logs & Modules
+# ====================================================================
+node_modules/
+jspm_packages/
+web_modules/
+.npm/
+.eslintcache
+.stylelintcache
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ====================================================================
+# Environment Assets & Protected Variables (Critical Secrets)
+# ====================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+**/.env
+**/.env.*
+
+# ====================================================================
+# Compilation Artifacts & Production Target Outputs
+# ====================================================================
+/backend/dist/
+/frontend/dist/
+/frontend/build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.turbo/
+
+# ====================================================================
+# Native Document Stream Temporary Buffers & OS Specific Metadata
+# ====================================================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ====================================================================
+# Operational Local Framework Settings & Editor Profiles
+# ====================================================================
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
