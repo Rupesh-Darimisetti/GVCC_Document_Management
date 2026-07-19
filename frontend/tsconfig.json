@@ -9,7 +9,7 @@
         ],
         "module": "node20",
         "skipLibCheck": true,
-        "moduleResolution": "node16",
+        "moduleResolution": "nodenext",
         "allowImportingTsExtensions": true,
         "resolveJsonModule": true,
         "isolatedModules": true,
@@ -19,7 +19,8 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "noImplicitReturns": true,
-        "noFallthroughCasesInSwitch": true
+        "noFallthroughCasesInSwitch": true, 
+        "allowArbitraryExtensions": true
     },
     "include": [
         "src"
